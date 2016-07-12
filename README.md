@@ -21,4 +21,18 @@ function setStyle(){
   for(var a = 1;a<5;a++){
     alert(a);
   }
+# js的数据类型都有哪些呢？如何检测数据类型呢？
+  typeof xxx 检测数据类型
+  string,number,boolean,object,function,undefined
+# 关于i的问题
+   for循环里面用i加事件等操作，会导致只有最后一个生效	
+   第一种解决方法 给自定义属性
+   	for(var i = 0;i < aInput.length;i++){ 
+	    aInput[i].title = i;              
+	    aInput[i].onclick = function () { 
+	        alert('点击的i='+this.title);    
+	    };                                
+	}<br/>                                     
+  第二种解决方法 闭包
   
+  	
