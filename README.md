@@ -34,5 +34,7 @@ function setStyle(){
 	    };                                
 	}<br/>                                     
   第二种解决方法 闭包
+# 如何检测这个值是不是数字呢？
+  isNaN()  true不是数字，false是数字
   
   	
